@@ -5,7 +5,7 @@
   "license": "ISC",
   "author": "JoshiCodes",
   "type": "module",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
