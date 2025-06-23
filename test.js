@@ -41,3 +41,22 @@ await new Promise(resolve => setTimeout(resolve, 1000));
 
 const shockers = await shock.fetchShockers(firstHub);
 console.log("Shockers in First Hub:", shockers);
+
+await new Promise(resolve => setTimeout(resolve, 1000));
+
+const shocker = shockers[0];
+console.log("First Shocker:", shocker);
+shock.sendShockData(
+    shocker.id,
+    "Shock",
+    10,
+    300
+).then(
+    response => {
+        console.log("Shock Data Sent Successfully:", response);
+    }
+).catch(
+    err => {
+        console.error(`Error sending shock data: ${err.message}`);
+    }
+)

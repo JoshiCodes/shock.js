@@ -7,3 +7,4 @@
 > Feel free to contribute and (respectfully) criticize to help me improve it.
 
 
+# Documentation is coming soon!

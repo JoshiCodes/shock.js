@@ -1,7 +1,8 @@
 {
-  "name": "shockjs",
+  "name": "@joshicodes/shockjs",
   "version": "1.0.0",
   "description": "",
+  "repository": "https://github.com/JoshiCodes/shock.js",
   "license": "ISC",
   "author": "JoshiCodes",
   "type": "module",
