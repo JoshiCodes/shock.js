@@ -49,7 +49,7 @@ console.log("First Shocker:", shocker);
 shock.sendShockData(
     shocker.id,
     "Shock",
-    10,
+    1,
     300
 ).then(
     response => {

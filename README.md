@@ -7,4 +7,5 @@
 > Feel free to contribute and (respectfully) criticize to help me improve it.
 
 
-# Documentation is coming soon!
+## Usage:
+To use this library, you need to include the shockjs in your project.
